@@ -9,4 +9,18 @@
 // * Print the variable within the loop statement
 // * Use break to exit the loop
 
-fn main() {}
+fn main() {
+    // variable initialize
+    let mut my_var = 1;
+
+    // start iterating using loop statement
+    loop{
+        println!("{:?}", my_var);
+        my_var+=1;
+
+        // put condition to break out of the loop
+        if my_var == 5{
+            break;
+        }
+    }
+}
