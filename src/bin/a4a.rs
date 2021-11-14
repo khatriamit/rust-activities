@@ -11,12 +11,13 @@
 
 fn main() {
     // initialize the variable
-    // let my_bool = true;
-    let my_bool = false;
+    let my_bool = true;
+    // let my_bool = false;
 
     // start match the conditional statement 
+    // => is fat arrow by naming
     match my_bool{
-        true => println!("it's true"),
+        true => println!("it's true"), 
         false => println!("it's false"),
     }
 
