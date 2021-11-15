@@ -12,4 +12,18 @@
 // * Use a match expression to determine which message
 //   to print
 
-fn main() {}
+// function to print print message using match expression
+fn message(my_bool: bool) {
+    match my_bool {
+        true => println!("it's big"),
+        false => println!("it's small"),
+    }
+}
+
+fn main() {
+    let my_var = 10;
+    let my_bool = my_var > 100;
+
+    // function call
+    message(my_bool);
+}
