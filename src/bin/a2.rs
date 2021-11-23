@@ -1,4 +1,3 @@
-
 // Topic: Basic arithmetic
 //
 // Program requirements:
@@ -9,17 +8,14 @@
 // * Use a function to display the result
 // * Use the "{:?}" token in the println macro to display the result
 
-
-
-fn sum(a:i32, b:i32)->i32{
-    a+b
+fn sum(a: i32, b: i32) -> i32 {
+    a + b
 }
 
-fn result(res:i32){
-    
+fn result(res: i32) {
     println!("{:?}", res)
-}   
-fn main(){
+}
+fn main() {
     let res = sum(10, 10);
     result(res);
 }
